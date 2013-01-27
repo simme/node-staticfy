@@ -1,0 +1,22 @@
+{ "name": "staticfy",
+  "version": "0.0.0",
+  "description": "Saves a given string to a file that can be served from the given URL.",
+  "main": "staticfy",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -u tdd -R spec"
+  },
+  "repository": "",
+  "keywords": [
+    "static",
+    "url"
+  ],
+  "author": "Simon Ljungberg <hi@iamsim.me>",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "*",
+    "filed": "*"
+  }
+}
