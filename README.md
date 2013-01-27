@@ -4,6 +4,10 @@ Staticfy
 Helper for creating static sites. Takes a string or buffer and writes it to
 a file accessible with the given URL.
 
+# API
+
+`staticfy(str, url, root[, callback(err)])`
+
 # Examples
 
 If the target path don't include an extension, the file will be written to
