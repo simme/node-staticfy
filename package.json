@@ -1,7 +1,7 @@
 { "name": "staticfy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Saves a given string to a file that can be served from the given URL.",
-  "main": "staticfy",
+  "main": "staticfy.js",
   "directories": {
     "test": "test"
   },
